@@ -96,6 +96,7 @@ section {
 #hero {
   background-image: url("./Img/Hero.jpg");
   background-position: left 65% top 3%;
+  background-repeat: no-repeat;
 }
 
 #New h2,
@@ -313,7 +314,7 @@ section {
 
 #Categories .card:hover {
   background-color: rgba(236, 236, 236, 0.733);
-  -webkit-text-fill-color: #4b9a9b;
+  -webkit-text-fill-color: white;
   transform: scale(1.025);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
 }
